@@ -28,4 +28,24 @@ intArrayNumber2.append(111)
 strArrayName2
 strArrayName2.append("ชิชูกะ")
 
+//ต้องการหาขนาดของอะเรย์
+strArrayName2.count
+
+print("strArrayName2 ที่ index = 3 มีค่า \(strArrayName2[3])")
+
+//การลบสมาชิกของอะเรย
+strArrayName2
+strArrayName2.remove(at: 1)
+print(strArrayName2)
+
+//การเรียงสมาชิกอะเรย์
+var intA  = [9,5,7,1,3,10]
+intA.sort()
+print(intA)
+
+
+
+
+
+
 		
